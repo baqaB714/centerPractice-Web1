@@ -1,0 +1,83 @@
+body {
+    background: rgba(0, 0, 0, 0.562) url('/assets/images/0002.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    /* direction: rtl; */
+    font-family: yekan;
+}
+
+section {
+    text-align: center;
+    padding-top: 50px;
+}
+
+#servicesBox , .servicesBox {
+    width: 500px;
+    display: inline-block;
+    text-align: center;
+    list-style-type: circle;
+    background-color: rgba(240, 255, 255, 0.61);
+    padding: 30px;
+    border-radius: 20px;
+    vertical-align: middle;
+}
+
+#servicesBox li {
+    background-color: aqua;
+    padding: 20px;
+    margin: 5px 0 5px 0;
+}
+
+#servicesBox button {
+    width: 100px;
+    height: 50px;
+    background-color: blueviolet;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#servicesBox div {
+    width: 100px;
+    height: 50px;
+    background-color: blueviolet;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 50px;
+}
+
+#servicesBox img {
+    width: 30px;
+}
+
+#servicesBox .imagBox {
+    line-height: 4.5;
+}
+article {
+    display: inline-block;
+    width: 300px;
+    text-align: justify;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(240, 255, 255, 0.61);
+    height: 300px;
+    margin-left: 5px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+article h1 {
+    margin: 5px;
+}
+
+#servicesBox input{
+    width: 85%;
+    border: none;
+    background-color: transparent;
+    box-shadow: 0 0 10px black;
+    border-radius: 50px;
+}

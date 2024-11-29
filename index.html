@@ -1,158 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <title>Document</title>
 </head>
-
 <body>
 
-    <style>
-        body {
-            background: rgba(0, 0, 0, 0.562) url('/0002.jpg');
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center top;
-            background-blend-mode: overlay;
-            background-attachment: fixed;
-            margin: 0;
-            padding: 0;
-            /* direction: rtl; */
-            font-family: yekan;
-        }
-
-        section {
-            text-align: center;
-            padding-top: 50px;
-        }
-
-        ul {
-            width: 500px;
-            display: inline-block;
-            text-align: center;
-            list-style-type: circle;
-            background-color: rgba(240, 255, 255, 0.61);
-            padding: 30px;
-            border-radius: 20px;
-        }
-
-        ul li {
-            background-color: aqua;
-            padding: 20px;
-            margin: 5px 0 5px 0;
-        }
-
-        button {
-            width: 100px;
-            height: 50px;
-            background-color: blueviolet;
-            display: inline-block;
-            vertical-align: middle;
-        }
-
-        div {
-            width: 100px;
-            height: 50px;
-            background-color: blueviolet;
-            display: inline-block;
-            vertical-align: middle;
-            line-height: 50px;
-        }
-
-        img {
-            width: 30px;
-        }
-
-        .imagBox {
-            line-height: 4.5;
-        }
-
-        article {
-            display: inline-block;
-            width: 300px;
-            text-align: justify;
-            padding: 20px;
-            border-radius: 20px;
-            background-color: rgba(240, 255, 255, 0.61);
-            height: 338px;
-            margin-left: 5px;
-        }
-
-        article h1 {
-            margin: 5px;
-        }
-
-        input{
-            width: 85%;
-            border: none;
-            background-color: transparent;
-            box-shadow: 0 0 10px black;
-            border-radius: 50px;
-        }
-    </style>
-
+    <header style="height: 20vh;
+     background: radial-gradient(500px , rgba(0, 0, 255, 0.7),
+      rgba(0, 0, 0, 0.7),
+       rgba(0, 0, 255, 0.7) ,
+        rgba(0, 0, 0, 0.7) ,
+         rgba(0, 0, 255, 0.7))  ;
+         box-shadow: 0 10px 20px rgba(0, 0, 255, 0.7);
+         text-align: center; ">
+         <img style="object-fit: cover; margin-top: 65px; border-radius: 100%; box-shadow: 0 0 20px white;" src="/assets/images/0002.jpg" alt="" width="100px" height="100px">
+        </header>
     <section>
-
-        <ul>
+        <ul id="servicesBox">
             <li>
-                <button>
-                    <a href="#">
-
-                        name
-                    </a>
-                </button>
+                <button>  <a href="#">name</a>   </button>
                 <button>family</button>
-                <div><input type="text"></div>
-                <button>
-                    <img src="/valveRed.png" alt="">
-                </button>
+                <div>  <input type="text">  </div>
+                <button>    <img src="/assets/images/valveRed.png" alt="">    </button>
             </li>
             <li>
                 <div>name</div>
                 <div>family</div>
-                <div><input type="text"></div>
-                <div class="imagBox">
-                    <img src="/valveRed.png" alt="">
-                </div>
-            </li>
-            <li>
-                <button>
-                    <a href="#">
-
-                        name
-                    </a>
-                </button>
-                <button>family</button>
-                <div><input type="text"></div>
-                <button>
-                    <img src="/valveRed.png" alt="">
-                </button>
+                <div>   <input type="text">   </div>
+                <div class="imagBox">       <img src="/assets/images/valveRed.png" alt="">     </div>
             </li>
             <li>
                 <div>name</div>
                 <div>family</div>
-                <div><input type="text"></div>
-                <div class="imagBox">
-                    <img src="/valveRed.png" alt="">
-                </div>
+                <div>   <input type="text">   </div>
+                <div class="imagBox">       <img src="/assets/images/valveRed.png" alt="">     </div>
             </li>
         </ul>
-
         <article>
             <h1>about</h1>
-
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam at rerum aut id odit, similique nihil amet
             enim exercitationem quas quibusdam facere nobis tenetur dolore laborum cumque pariatur natus vel. Lorem
             ipsum dolor sit amet consectetur adipisicing elit. Atque tempore dolorem corporis natus animi rerum.
             Officiis, enim cupiditate quas velit eos totam quod asperiores magnam quos mollitia eligendi id commodi?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quae tempora, magnam veritatis a
-            dolores tenetur quisquam facilis non quibusdam impedit corrupti quam facere. Aspernatur animi iure nesciunt
-            facilis blanditiis!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
         </article>
     </section>
+    <section>
+        <article>
+            <h1>about</h1>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam at rerum aut id odit, similique nihil amet
+            enim exercitationem quas quibusdam facere nobis tenetur dolore laborum cumque pariatur natus vel. Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Atque tempore dolorem corporis natus animi rerum.
+            Officiis, enim cupiditate quas velit eos totam quod asperiores magnam quos mollitia eligendi id commodi?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        </article>
 
+        <div class="servicesBox">
+            <img src="/assets/images/0002.jpg" alt="" width="90%">
+        </div>
+    </section>
 </body>
-
 </html>
