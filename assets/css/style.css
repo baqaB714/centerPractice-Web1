@@ -81,3 +81,12 @@ article h1 {
     box-shadow: 0 0 10px black;
     border-radius: 50px;
 }
+
+@media (max-width : 600px) {
+    .servicesBox , article , ul{
+        display: inline-block;
+        width: 80% !important;
+        margin-top: 10px;
+    }
+    
+}
