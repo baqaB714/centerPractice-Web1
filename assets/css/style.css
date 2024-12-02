@@ -82,6 +82,35 @@ article h1 {
     border-radius: 50px;
 }
 
+input:nth-child(1){
+    background-color: transparent;
+    border-radius: 5px;
+    transition: all 1s;
+    width: 350px;
+    height: 30px;
+}
+input:nth-child(2){
+    border-radius: 5px;
+    transition: all 1s;
+    width: 50px;
+    height: 30px;
+}
+
+
+input:focus{
+    background-color: rgba(255, 0, 0, 0.322);
+    border-radius: 5px;
+}
+
+::placeholder{
+    color: white;
+    transition: all 1s;
+}
+input:hover::placeholder{
+    color: rgb(21, 255, 0);
+}
+
+
 @media (max-width : 600px) {
     .servicesBox , article , ul{
         display: inline-block;
