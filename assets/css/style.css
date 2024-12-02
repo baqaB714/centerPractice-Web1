@@ -9,6 +9,7 @@ body {
     padding: 0;
     /* direction: rtl; */
     font-family: yekan;
+    text-align: center;
 }
 
 section {
@@ -82,18 +83,32 @@ article h1 {
     border-radius: 50px;
 }
 
-input:nth-child(1){
+/* طراحی فرم------------------------- */
+
+form{
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.616);
+    margin-top: 20px;
+    width: 55%;
+}
+
+.inputBox{
     background-color: transparent;
     border-radius: 5px;
     transition: all 1s;
-    width: 350px;
+    width: 90%;
     height: 30px;
+    margin-top: 10px;
 }
-input:nth-child(2){
-    border-radius: 5px;
-    transition: all 1s;
-    width: 50px;
-    height: 30px;
+.inputBtn{
+    border-radius: 5px !important;
+    width: 50px !important;
+    height: 30px !important;
+    margin-top: 10px;
+    background-color: blueviolet;
 }
 
 
@@ -103,8 +118,8 @@ input:focus{
 }
 
 ::placeholder{
-    color: white;
     transition: all 1s;
+    font-size: 20px;
 }
 input:hover::placeholder{
     color: rgb(21, 255, 0);
@@ -116,6 +131,10 @@ input:hover::placeholder{
         display: inline-block;
         width: 80% !important;
         margin-top: 10px;
+    }
+
+    form{
+        width: 82%;
     }
     
 }
